@@ -16,8 +16,7 @@
     if (self) {
         // Initialization code here.
         // Initialization code here.
-        // Initialization code here.
-        // Initialization code here.
+        // Initialization 
     }
     
     return self;
