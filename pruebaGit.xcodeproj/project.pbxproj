@@ -23,6 +23,7 @@
 		0E3499CC143B12820021C55E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E3499CA143B12820021C55E /* InfoPlist.strings */; };
 		0E3499CE143B12820021C55E /* pruebaGitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0E3499CD143B12820021C55E /* pruebaGitTests.h */; };
 		0E3499D0143B12820021C55E /* pruebaGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3499CF143B12820021C55E /* pruebaGitTests.m */; };
+		0E3499DC143B13D70021C55E /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3499DB143B13D70021C55E /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		0E3499CB143B12820021C55E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E3499CD143B12820021C55E /* pruebaGitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pruebaGitTests.h; sourceTree = "<group>"; };
 		0E3499CF143B12820021C55E /* pruebaGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pruebaGitTests.m; sourceTree = "<group>"; };
+		0E3499DA143B13D70021C55E /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		0E3499DB143B13D70021C55E /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		0E3499A5143B12820021C55E /* pruebaGit */ = {
 			isa = PBXGroup;
 			children = (
+				0E3499D9143B13CB0021C55E /* New Group */,
 				0E3499AE143B12820021C55E /* pruebaGitAppDelegate.h */,
 				0E3499AF143B12820021C55E /* pruebaGitAppDelegate.m */,
 				0E3499B1143B12820021C55E /* MainWindow.xib */,
@@ -155,6 +159,15 @@
 				0E3499CA143B12820021C55E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E3499D9143B13CB0021C55E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				0E3499DA143B13D70021C55E /* MyClass.h */,
+				0E3499DB143B13D70021C55E /* MyClass.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				0E3499AC143B12820021C55E /* main.m in Sources */,
 				0E3499B0143B12820021C55E /* pruebaGitAppDelegate.m in Sources */,
 				0E3499B6143B12820021C55E /* RootViewController.m in Sources */,
+				0E3499DC143B13D70021C55E /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
